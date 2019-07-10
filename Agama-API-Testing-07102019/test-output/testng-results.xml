@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2157" started-at="2019-07-10T19:21:09Z" finished-at="2019-07-10T19:21:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2157" started-at="2019-07-10T19:21:09Z" finished-at="2019-07-10T19:21:12Z">
+      <class name="tests.GetAPITest">
+        <test-method status="PASS" signature="preSetup()[pri:0, instance:tests.GetAPITest@39aeed2f]" name="preSetup" is-config="true" duration-ms="361" started-at="2019-07-10T19:21:09Z" finished-at="2019-07-10T19:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.GetAPITest@39aeed2f]" name="setup" is-config="true" duration-ms="16" started-at="2019-07-10T19:21:09Z" finished-at="2019-07-10T19:21:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyGetUsersApi()[pri:0, instance:tests.GetAPITest@39aeed2f]" name="verifyGetUsersApi" duration-ms="2100" started-at="2019-07-10T19:21:09Z" finished-at="2019-07-10T19:21:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetUsersApi -->
+        <test-method status="PASS" signature="afterAMethod(org.testng.ITestResult)[pri:0, instance:tests.GetAPITest@39aeed2f]" name="afterAMethod" is-config="true" duration-ms="5" started-at="2019-07-10T19:21:12Z" finished-at="2019-07-10T19:21:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGetUsersApi status=SUCCESS method=GetAPITest.verifyGetUsersApi()[pri:0, instance:tests.GetAPITest@39aeed2f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAMethod -->
+        <test-method status="PASS" signature="postClean()[pri:0, instance:tests.GetAPITest@39aeed2f]" name="postClean" is-config="true" duration-ms="867" started-at="2019-07-10T19:21:12Z" finished-at="2019-07-10T19:21:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postClean -->
+      </class> <!-- tests.GetAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
